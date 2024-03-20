@@ -9,8 +9,8 @@
     tools:openDrawer="start">
 
     <include
-        android:id="@+id/app_bar_formulario_list"
-        layout="@layout/app_bar_formulario_list"
+        android:id="@+id/app_bar_app_navigation"
+        layout="@layout/app_bar_app_navigation"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -20,6 +20,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_formulario_list"
+        app:headerLayout="@layout/nav_header_app_navigation"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -13,12 +13,9 @@
         android:theme="@style/Theme.EC03_Lewis_Group"
         tools:targetApi="31">
         <activity
-            android:name=".Formulario_view"
-            android:exported="false" />
-        <activity
-            android:name=".Formulario_List"
+            android:name=".AppNavigation"
             android:exported="false"
-            android:label="@string/title_activity_formulario_list"
+            android:label="@string/title_activity_app_navigation"
             android:theme="@style/Theme.EC03_Lewis_Group.NoActionBar" />
         <activity
             android:name=".MainActivity"
